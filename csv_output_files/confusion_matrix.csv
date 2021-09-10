@@ -1,0 +1,5 @@
+Actual,Predicted_Fraud,Predicted_Not_Fraud
+rf_Actual (Fraud),True_positive: 2,false_negetive: 4
+rf_Actual (Not_Fraud),false_positive: 0,True_negetive: 2732
+svc_Actual (Fraud),True_positive: 5,false_negetive: 1
+svc_Actual (Not_Fraud),false_positive: 0,True_negetive: 2732
