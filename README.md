@@ -4,6 +4,7 @@
 
 ## Running the application
 - To run the application clone the project using <git clone https://github.com/TejasJay/AML_False_positive_reduction.git> using your IDE
+- Set up your virtual environment
 - Install all the requirements using <pip install -r requirements.txt>
 - Run application.py
 - access the application on localhost:5000 on your chrome browser
