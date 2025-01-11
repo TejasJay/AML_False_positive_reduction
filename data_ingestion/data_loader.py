@@ -4,19 +4,31 @@ from application_logging import logger
 
 
 
-class Data_Getter:
-    """
-    This class shall  be used for obtaining the data from the source for training.
+# class Data_Getter:
+#     """
+#     This class shall  be used for obtaining the data from the source for training.
 
+#     Written By: Tejas Jay (TJ)
+#     Version: 1.0
+#     Revisions: None
+
+#     """
+#     def __init__(self):
+#         self.training_file='Training_FileFromDB/InputFile.csv'
+#         self.log_writer = logger.App_Logger()
+
+class DataGetter:
+    """
+    Class for obtaining training data from a source.
     Written By: Tejas Jay (TJ)
     Version: 1.0
     Revisions: None
-
     """
+    TRAINING_FILE_PATH = 'Training_FileFromDB/InputFile.csv'
+    
     def __init__(self):
-        self.training_file='Training_FileFromDB/InputFile.csv'
+        self.training_file = self.TRAINING_FILE_PATH
         self.log_writer = logger.App_Logger()
-
 
 
 
