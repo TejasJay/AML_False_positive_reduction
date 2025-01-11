@@ -23,7 +23,7 @@ class Data_Getter_Pred:
     def get_data(self):
         """
         Method Name: get_data
-        Description: This method reads the data from source.
+        Description: This method reads the data from source for the prediction.
         Output: A pandas DataFrame.
         On Failure: Raise Exception
 
@@ -41,7 +41,6 @@ class Data_Getter_Pred:
             self.file_object = open("Prediction_Logs/Prediction_Log.txt", 'a+')
             self.log_writer.log(self.file_object,'Data Load Successful.Exited the get_data method of the Data_Getter_Pred class')
             self.file_object.close()
-
             return self.data
         except Exception as e:
             self.file_object = open("Prediction_Logs/Prediction_Log.txt", 'a+')
